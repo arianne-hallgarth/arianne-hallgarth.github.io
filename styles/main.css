@@ -1,3 +1,4 @@
+/* Index StyleSheet */
 .index-body-bg {
   background-color: rgba(245, 224, 185, 0.76);
 }
@@ -11,14 +12,13 @@
 
 .index-circle-small {
   padding: 5px 5px 5px 5px;
-  height: 170px;
-  width: 170px;
+  height: 100px;
+  width: 100px;
   background-color: rgb(218, 176, 86);
   border-radius: 50%;
   margin: 0 auto;
 }
 
-/*index divs and spans*/
 div.index-avatar {
   position: relative;
   /*border: 5px solid rgba(218, 176, 86, 0.842);*/
@@ -42,15 +42,14 @@ div.index-description {
   /*border: 5px solid rgba(218, 176, 86, 0.842);*/
   position: relative;
   background-color: rgb(243, 219, 175);
-  left: 0px;
-  top: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
   color: rgba(46, 43, 43, 0.658);
-  text-indent: 130px;
+  text-align: center;
   line-height: 0.75;
+  margin: auto;
 }
 
 div.index-tehoutaewa {
@@ -73,6 +72,7 @@ ul {
 
 li {
   float: left;
+  margin: 0 auto;
 }
 
 li a {
@@ -89,6 +89,8 @@ li a {
 li a:hover {
   background-color: rgb(218, 176, 86);
 }
+
+/* Te Houtaewa StyleSheet*/
 
 .blog-title {
   font-size: 50px;
@@ -127,12 +129,10 @@ div.tehoutaewa-body {
   background-color: rgb(243, 219, 175);
   padding: 0px 30px 0px 30px;
   top: 100px;
-  padding-top: 5px;
-  padding-bottom: 5px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
   color: rgba(46, 43, 43, 0.658);
-  text-indent: 130px;
+  text-align: center;
 }
 
 body.tehoutaewa {
@@ -140,6 +140,30 @@ body.tehoutaewa {
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+/*HTML and CSS Blog StyleSheet*/
+
+/*Margin, Border and Padding StyleSheet*/
+div.sample {
+  background-color: rgba(46, 43, 43, 0.555);
+  width: 100px;
+  height: 100px;
+  border: 50px solid rgb(218, 176, 86);
+  padding: 50px;
+  margin: 20px;
+}
+div.explain {
+  position: absolute;
+  background-color: rgb(243, 219, 175);
+  padding: 10px 30px 30px 30px;
+  top: 80px;
+  left: 400px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  color: rgba(46, 43, 43, 0.658);
+  text-align: center;
+  margin: 0 auto;
 }
 
 /*table.menu {
