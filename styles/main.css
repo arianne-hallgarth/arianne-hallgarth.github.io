@@ -4,6 +4,7 @@
 .index-circle {
   padding: 5px 5px 5px 5px;
   height: 200px;
+  max-width: fit-content;
   width: 200px;
   background-color: rgb(218, 176, 86);
   border-radius: 50%;
@@ -140,6 +141,7 @@ body.tehoutaewa {
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
+  max-width: fit-content;
 }
 
 /*table.menu {
