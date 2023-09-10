@@ -154,11 +154,11 @@ div.sample {
   margin: 20px;
 }
 div.explain {
-  position: absolute;
+  position: relative;
   background-color: rgb(243, 219, 175);
   padding: 10px 30px 30px 30px;
   top: 80px;
-  left: 400px;
+  left: 0px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
   color: rgba(46, 43, 43, 0.658);
