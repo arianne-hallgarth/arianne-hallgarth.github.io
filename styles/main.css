@@ -114,7 +114,7 @@ li a:hover {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: rgba(46, 43, 43, 0.658);
   text-align: center;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px;
 }
 
 .center {
@@ -138,11 +138,23 @@ div.tehoutaewa-body {
 body.tehoutaewa {
   background-image: url('https://scontent.fwlg3-1.fna.fbcdn.net/v/t39.30808-6/302154549_465396488969484_1720303311647566087_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=xLaTpcUEG1AAX8wBOsp&_nc_ht=scontent.fwlg3-1.fna&oh=00_AfA0Pt3vZbi3rdYPrw5ksFXqkvu4XM-u1Wv9V5chzlG01g&oe=6502C15F');
   background-repeat: repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-attachment: scroll;
+  background-size:cover;
 }
 
 /*HTML and CSS Blog StyleSheet*/
+/*Sprint 2*/
+button.image {
+  position: static;
+  border: 20px solid rgba(221, 182, 96, 0.938) ;
+  background-image: "https://scontent.fwlg3-1.fna.fbcdn.net/v/t39.30808-6/369747856_3575563686060923_1078156555079391158_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=5614bc&_nc_ohc=ggFnwvTDuy4AX8PIuoX&_nc_ht=scontent.fwlg3-1.fna&oh=00_AfDQn9PKAw80Gswo5_m-KscMsnK1Gq5h0PWpZLLa6CA_FA&oe=6503933F";
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  padding: 10px 10px;
+  margin: 0 auto;
+}
+
 
 /*Margin, Border and Padding StyleSheet*/
 div.sample {
@@ -151,20 +163,24 @@ div.sample {
   height: 100px;
   border: 50px solid rgb(218, 176, 86);
   padding: 50px;
-  margin: 20px;
+  margin: 0 auto;
+ 
 }
 div.explain {
   position: relative;
   background-color: rgb(243, 219, 175);
   padding: 10px 30px 30px 30px;
-  top: 80px;
+  top: 50px;
   left: 0px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
   color: rgba(46, 43, 43, 0.658);
   text-align: center;
+  line-height: 1.5;
   margin: 0 auto;
 }
+
+
 
 /*table.menu {
   width: 30%;
