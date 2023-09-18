@@ -55,7 +55,7 @@ div.index-description {
 div.index-tehoutaewa {
   position: relative;
   top: 40px;
-  width: 20px;
+  margin: 0 auto;
 }
 
 span.color-orange {
