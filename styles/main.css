@@ -1,13 +1,17 @@
 /* Index StyleSheet */
-.index-body-bg {
+body {
   background-color: rgba(245, 224, 185, 0.76);
 }
-.index-circle {
+.circle {
+  position: relative;
   height: 200px;
   width: 200px;
+  top: 50px;
   margin: 0 auto;
   background-color: rgb(218, 176, 86);
+  background-image: url('https://scontent.fwlg3-1.fna.fbcdn.net/m1/v/t6/An9sfKVTQDYzeXSLn-qXZ_2B4Xo0Qs2DPYyPOl5WwLqZWLb8F_E56aoSyfUBB1Pcduq-M4QHW8l39sJwtHvcdO-bnvMyLaV1WSsXOXLmRDnziias6AS0ivdRPgvEIIsUlC7P3f-ruRZzf-VrDohVN2v2AtMejK5CXxFhSZVpV6qvP7Derj1-EZI2SlYYQj52C4u7rSFdeIej.WEBP?strext=1&ccb=10-5&oh=00_AfB2ihuswVwLYfnUVmxaf4W3c4X8HSYkWgBh2QVhgXxEnA&oe=650415DB&_nc_sid=185cbb');
   border-radius: 50%;
+  background-size: contain;
 }
 
 .index-circle-small {
@@ -16,15 +20,6 @@
   width: 100px;
   background-color: rgb(218, 176, 86);
   border-radius: 50%;
-  margin: 0 auto;
-}
-
-div.index-avatar {
-  position: relative;
-  /*border: 5px solid rgba(218, 176, 86, 0.842);*/
-  width: 210px;
-  height: 210px;
-  top: 50px;
   margin: 0 auto;
 }
 
@@ -136,25 +131,16 @@ div.tehoutaewa-body {
 }
 
 body.tehoutaewa {
-  background-image: url('https://scontent.fwlg3-1.fna.fbcdn.net/v/t39.30808-6/302154549_465396488969484_1720303311647566087_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=xLaTpcUEG1AAX8wBOsp&_nc_ht=scontent.fwlg3-1.fna&oh=00_AfA0Pt3vZbi3rdYPrw5ksFXqkvu4XM-u1Wv9V5chzlG01g&oe=6502C15F');
-  background-repeat: repeat;
-  background-attachment: scroll;
-  background-size:cover;
+  min-height: 100%;
+  /* background-image: URL('https://volunteeringnorthland.nz/image/e9526654f001fb1b3d04eb56593d6dee.png?w=1200&h=630&fit=fill');*/
+  background-image: URL(https://volunteeringnorthland.nz/image/e9526654f001fb1b3d04eb56593d6dee.png?w=auto&h=220&fit=max);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /*HTML and CSS Blog StyleSheet*/
 /*Sprint 2*/
-button.image {
-  position: static;
-  border: 20px solid rgba(221, 182, 96, 0.938) ;
-  background-image: "https://scontent.fwlg3-1.fna.fbcdn.net/v/t39.30808-6/369747856_3575563686060923_1078156555079391158_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=5614bc&_nc_ohc=ggFnwvTDuy4AX8PIuoX&_nc_ht=scontent.fwlg3-1.fna&oh=00_AfDQn9PKAw80Gswo5_m-KscMsnK1Gq5h0PWpZLLa6CA_FA&oe=6503933F";
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
-  padding: 10px 10px;
-  margin: 0 auto;
-}
-
 
 /*Margin, Border and Padding StyleSheet*/
 div.sample {
@@ -164,7 +150,6 @@ div.sample {
   border: 50px solid rgb(218, 176, 86);
   padding: 50px;
   margin: 0 auto;
- 
 }
 div.explain {
   position: relative;
@@ -179,8 +164,6 @@ div.explain {
   line-height: 1.5;
   margin: 0 auto;
 }
-
-
 
 /*table.menu {
   width: 30%;
