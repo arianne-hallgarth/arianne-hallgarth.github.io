@@ -2,12 +2,6 @@
 body {
   background-color: rgba(245, 224, 185, 0.76);
 }
-.column {
-  float: left;
-  width: 10px;
-}
-
-/* Clear floats after image containers */
 
 .circle {
   position: relative;
@@ -23,11 +17,17 @@ body {
 
 .index-circle-small {
   padding: 5px 5px 5px 5px;
-  height: 100px;
-  width: 100px;
+  height: 300px;
+  width: 300px;
   background-color: rgb(218, 176, 86);
   border-radius: 50%;
   margin: 0 auto;
+}
+
+.subtitle {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  color: rgba(46, 43, 43, 0.658);
 }
 
 div.index-tehaerenga {
