@@ -2,6 +2,13 @@
 body {
   background-color: rgba(245, 224, 185, 0.76);
 }
+.column {
+  float: left;
+  width: 10px;
+}
+
+/* Clear floats after image containers */
+
 .circle {
   position: relative;
   height: 200px;
@@ -50,7 +57,8 @@ div.index-description {
 div.index-tehoutaewa {
   position: relative;
   top: 40px;
-  margin: 0 auto;
+  margin: auto;
+  text-align: center;
 }
 
 span.color-orange {
