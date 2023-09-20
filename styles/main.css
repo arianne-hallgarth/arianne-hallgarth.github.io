@@ -3,6 +3,9 @@ body {
   background-color: rgba(245, 224, 185, 0.76);
 }
 
+ul.menu-bar {
+  margin: 0 auto;
+}
 .circle {
   position: relative;
   height: 200px;
