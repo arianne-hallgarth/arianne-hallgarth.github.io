@@ -3,9 +3,6 @@ body {
   background-color: rgba(245, 224, 185, 0.76);
 }
 
-ul.menu-bar {
-  margin: 0 auto;
-}
 .circle {
   position: relative;
   height: 200px;
@@ -35,8 +32,6 @@ ul.menu-bar {
 
 div.index-tehaerenga {
   text-align: center;
-  /*border: 5px solid rgba(218, 176, 86, 0.842);*/
-  /*top: 50px;*/
   font-family: 'Pacifico', cursive;
   font-size: 30px;
   color: rgba(218, 176, 86, 0.842);
@@ -174,6 +169,17 @@ div.explain {
   text-align: center;
   line-height: 1.5;
   margin: 0 auto;
+}
+
+footer.all-footer {
+  text-align: left;
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0.322);
+  color: rgb(219, 155, 17);
+  font-style: bolder;
+  font-size: 20px;
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 50px;
 }
 
 /*table.menu {
